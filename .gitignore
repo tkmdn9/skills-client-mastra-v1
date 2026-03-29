@@ -1,0 +1,27 @@
+# 依存関係
+node_modules/
+
+# ビルド成果物
+dist/
+
+# 環境変数（APIキーを含むため必須）
+.env
+
+# Mastra の内部ディレクトリ
+.mastra/
+
+# MCP 設定（ローカル絶対パスを含む）
+.mcp.json
+
+# Serena MCP（開発ツール設定）
+.serena/
+
+# プロジェクトローカルスキル（個人用カスタマイズ・秘密情報を含む可能性）
+.skills/
+
+# macOS
+.DS_Store
+
+# エディタ
+.vscode/
+.idea/
